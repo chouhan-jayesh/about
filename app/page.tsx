@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="w-screen h-screen relative">
       <div className="flex items-center w-full h-full bg-cover bg-center" style={{
-        backgroundImage: "url(/bg-portfolio.jpg)"
+        backgroundImage: "url(./bg-portfolio.jpg)"
       }}>
         <div className="pl-20 md:pl-40 pd:56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[770px]">
           <h1 className=" text-[35px] text-white font-semibold">
