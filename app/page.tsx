@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,7 +18,17 @@ export default function Home() {
             I am a Fullstack Developer based in India, proficient in modern frameworks for crafting comprehensive applications. Passionate about coding, debugging, and constantly learning. I also have a keen interest in financial markets, trading, and cybersecurity.
           </p>
           <div className="flex-col md:flex-row hidden md:flex">
-
+            <Link href="/skills" className="rounded-[20px] bg-blue-500 hover:bg-blue-300 px-5 py-3 text-lg">
+              Learn more
+            </Link>
+            {/* <Link href="/skills" className="rounded-[20px] bg-blue-500 hover:bg-blue-300 px-5 py-3 text-lg">
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+              My projects
+            </Link>
+            <Link href="/skills" className="rounded-[20px] bg-blue-500 hover:bg-blue-300 px-5 py-3 text-lg">
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+              Contact me
+            </Link> */}
           </div>
         </div>
 
