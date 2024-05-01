@@ -15,7 +15,7 @@ export default function Home() {
             at your service.
           </h1>
           <p className="text-gray-300 hidden md:block">
-            I'm a Fullstack Developer based in India, proficient in modern frameworks for crafting comprehensive applications. Passionate about coding, debugging, and constantly learning. I also have a keen interest in financial markets, trading, and cybersecurity.
+            I am a Fullstack Developer based in India, proficient in modern frameworks for crafting comprehensive applications. Passionate about coding, debugging, and constantly learning. I also have a keen interest in financial markets, trading, and cybersecurity.
           </p>
           <div className="flex-col md:flex-row hidden md:flex">
 
