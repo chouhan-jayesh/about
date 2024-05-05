@@ -5,7 +5,7 @@ import Image from "next/image";
 function HomePage() {
   return (
     <div
-      className="flex items-center w-full h-full bg-cover bg-center"
+      className="flex items-center w-full h-full bg-cover bg-center overflow-x-hidden"
       style={{
         backgroundImage: "url(./bg-portfolio.jpg)",
       }}
@@ -25,21 +25,30 @@ function HomePage() {
           coding, debugging, and constantly learning. I also have a keen
           interest in financial markets, trading, and cybersecurity.
         </p>
-        <div className="flex-col gap-2 md:flex-row hidden md:flex">
-          <Link href="/about">
+        
+          {/* <Link href="/about">
             <div className="text-lg rounded-[10px] group bg-zinc-600 hover:bg-gradient-to-r from-purple-700 to-cyan-700  px-4 py-2   text-white max-w-[200px]">
               About
             </div>
+          </Link> */}
+          <div className="flex-col sm:flex sm:flex-row sm:gap-2 mb-2 ">
+          <Link
+            href="/contact"
+            className="text-lg rounded-[10px] group bg-zinc-600 hover:bg-gradient-to-r from-purple-700 to-cyan-700  px-4 py-2   text-white max-w-[200px]"
+          >
+            About
           </Link>
-          <Link href="/projects">
-            <div className="text-lg rounded-[10px] group bg-zinc-600 hover:bg-gradient-to-r from-purple-700 to-cyan-700  px-4 py-2   text-white max-w-[200px]">
-              Projects
-            </div>
+          <Link
+            href="/contact"
+            className="text-lg rounded-[10px] group bg-zinc-600 hover:bg-gradient-to-r from-purple-700 to-cyan-700  px-4 py-2   text-white max-w-[200px]"
+          >
+            Projects
           </Link>
-          <Link href="/contact">
-            <div className="text-lg rounded-[10px] group bg-zinc-600 hover:bg-gradient-to-r from-purple-700 to-cyan-700  px-4 py-2   text-white max-w-[200px]">
-              Contact
-            </div>
+          <Link
+            href="/contact"
+            className="text-lg rounded-[10px] group bg-zinc-600 hover:bg-gradient-to-r from-purple-700 to-cyan-700  px-4 py-2   text-white max-w-[200px]"
+          >
+            Contact
           </Link>
         </div>
       </div>
