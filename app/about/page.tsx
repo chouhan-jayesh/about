@@ -1,7 +1,8 @@
-export default function Home () {
-    return (
-        <>
-        This is about section
-        </>
-    );
+export default function Home() {
+  return (
+    <>
+      <main>This is the about Section.</main>
+    </>
+  );
 }
+
